@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010114"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="217dp"
+        android:layout_height="219dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="296dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="0dp"
+            android:layout_height="157dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="最低"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="143dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="25"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="96sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="82dp"
+        android:layout_height="174dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000729"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Morning"
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+
+        <ImageView
+            android:id="@+id/NightIcon"
+            android:layout_width="51dp"
+            android:layout_height="37dp"
+            android:layout_margin="15dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/moon" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Sunrise"
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="82dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000729"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="4 A.M."
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+
+        <ImageView
+            android:id="@+id/NightIcon"
+            android:layout_width="51dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/moon" />
+
+        <TextView
+            android:id="@+id/Temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="26 Celsius"
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="79dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="40dp"
+        android:background="#92010D38"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Now"
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+
+        <ImageView
+            android:id="@+id/NightIcon"
+            android:layout_width="51dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="0dp"
+            app:srcCompat="@drawable/moon" />
+
+        <TextView
+            android:id="@+id/Temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="26 Celsius"
+            android:textAlignment="center"
+            android:textColor="#B1B0B0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="82dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000729"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="5 A.M"
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+
+        <ImageView
+            android:id="@+id/NightIcon"
+            android:layout_width="51dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/moon" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="25 Celsius"
+            android:textAlignment="center"
+            android:textColor="#82828B" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Present Position"
+        android:textColor="#F0ECEC"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="Xitun District, Taichung City, Taiwan (R.O.C.)"
+        android:textColor="#F0ECEC"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:text="26 Celsius"
+        android:textColor="#F0ECEC"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Cloudless"
+        android:textColor="#F0ECEC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:text="Estimate will be cloudy at11 A.M "
+        android:textColor="#BFC0CA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="234dp"
+        android:layout_height="219dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="296dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="0dp"
+            android:layout_height="157dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="最高"
+            android:textAlignment="center"
+            android:textColor="#F0ECEC"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="159dp"
+            android:layout_height="146dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="33"
+            android:textColor="#F0ECEC"
+            android:textSize="96sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
